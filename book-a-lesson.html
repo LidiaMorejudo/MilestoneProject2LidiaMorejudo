@@ -22,7 +22,23 @@
             </ul>
         </div>
     </header>
-    Booking a lesson
+    
+    <main>
+        <div class="container">
+            <h1>Book a Lesson</h1>
+            <form id="book-lesson-form">
+                <div class="form-group">
+                    <label for="tutor-select">Select Tutor</label>
+                    <select id="tutor-select" class="form-control">
+                        <option value="Marlene Affouard">Marlene Affouard</option>
+                        <option value="Mauricio Lefebre">Mauricio Lefebre</option>
+                        <option value="Belen Lopez">Belen Lopez</option>
+                    </select>
+                </div>
+                <button type="button" class="btn btn-primary" onclick="bookLesson()">Book</button>
+            </form>
+        </div>
+    </main>
 
     <footer class="footer bg-light text-center py-3">
         <p>&copy; The Language Store 2024 All rights reserved</p>

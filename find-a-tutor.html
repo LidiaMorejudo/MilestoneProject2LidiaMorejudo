@@ -22,7 +22,29 @@
             </ul>
         </div>
     </header>
-    Here information about finding a tutor
+    <main>
+        <div class="container">
+            <h1>Find a Tutor</h1>
+            <form id="search-form">
+                <div class="form-group">
+                    <label for="native-language">Native Language</label>
+                    <input type="text" id="native-language" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="language-taught">Language Taught</label>
+                    <input type="text" id="language-taught" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="level">Level</label>
+                    <input type="text" id="level" class="form-control">
+                </div>
+                <button type="button" class="btn btn-primary" onclick="searchTutors()">Search</button>
+            </form>
+            <div id="tutor-results" class="mt-4">
+                <!-- Results will be displayed here -->
+            </div>
+        </div>
+    </main>
 
     <footer class="footer bg-light text-center py-3">
         <p>&copy; The Language Store 2024 All rights reserved</p>
